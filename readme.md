@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Prepare datasets ##
 
-Download the dataset from the anonymous link [dataset](https://d.kuku.lu/pfj2vscrj) and extract it to the `dadaset` folder.
+Download the dataset from the anonymous link [dataset](https://d.kuku.lu/pfj2vscrj) and extract it to the `dataset` folder.
 ```
 ├─dataset
 ├───TSB-AD
@@ -58,6 +58,7 @@ sh runners/run_dm_baseline.sh
 ```
 
 ## Reproduce the ablation study results ##
+The details of the ablation versions are shown in the **runners/run_ablation_CoAD.sh** file.
 ```shell
 sh runners/run_ablation_CoAD.sh
 ```
