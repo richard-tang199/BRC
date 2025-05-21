@@ -1,6 +1,0 @@
-for g in $(seq 225 233)
-#for g in "${group_list[@]}"
-do
-  python train_classify_mask.py --dataset_name TSB-AD-U --group_name $g --model_name freq_new --device "cuda:0" --plot True
-  python train_classify_mask.py --dataset_name TSB-AD-U --group_name $g --model_name freq_hard --device "cuda:0" --plot True
-done
