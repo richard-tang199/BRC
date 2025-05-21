@@ -90,7 +90,5 @@ sh runners/parameter.sh
 
 1. E. Keogh, “Multidataset time series anomaly detection competition,” 2021, https://compete.hexagon-ml.com/practice/competition/39/.
 
-2. Q. Liu and J. Paparrizos, “The elephant in the room: Towards a reliable time-series anomaly detection
-358 benchmark,” in The 38th Conference on Neural Information Processing Systems Datasets and Benchmarks
-359 Track, 2024
+2. Q. Liu and J. Paparrizos, “The elephant in the room: Towards a reliable time-series anomaly detection benchmark,” in The 38th Conference on Neural Information Processing Systems Datasets and Benchmarks Track, 2024
 
