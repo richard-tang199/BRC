@@ -3,21 +3,21 @@
 
 ## Overall Framework ##
 <p style="text-align: center;">
-<img src="fig/main_structure.png" alt="main_structure" width="800">
+<img src="fig/main_structure.png" alt="main_structure" width="1000">
 </p>
 
 ## Main Results ##
 Evaluation results on reliable datasets (KDD21 [1] and TSB-AD [2]) using rigorous evaluation protocols [2].
 
 <p style="text-align: center;">
-<img src="fig/main_results.png" alt="main_results" width="800">
+<img src="fig/main_results.png" alt="main_results" width="1000">
 </p>
 
 ## Case Studies ##
 Visualizes the detection results of COAD on several challenging cases.
 
 <p style="text-align: center;">
-<img src="fig/case_study.png" alt="main_results" width="800">
+<img src="fig/case_study.png" alt="main_results" width="1000">
 </p>
 
 
