@@ -24,8 +24,8 @@ Visualizes the detection results of COAD on several challenging cases.
 ## Setup ##
 Installation
 ```
-conda create -n MMA python=3.11
-conda activate MMA
+conda create -n CoAD python=3.11
+conda activate CoAD
 pip install -r requirements.txt
 ```
 
@@ -75,5 +75,3 @@ sh runners/parameter.sh
 358 benchmark,” in The 38th Conference on Neural Information Processing Systems Datasets and Benchmarks
 359 Track, 2024
 
-## Acknowledgement ##
-We appreciate [ Prof. Eamonn Keogh](https://www.cs.ucr.edu/~eamonn/) and [Qinghua Liu](https://github.com/TheDatumOrg/TSB-AD) for providing the high-quality datasets and the evaluation protocols.
