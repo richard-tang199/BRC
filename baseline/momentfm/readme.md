@@ -1,0 +1,1 @@
+Download the pytorch_model.bin and model.safetensors from link https://huggingface.co/AutonLab/MOMENT-1-base/tree/main
