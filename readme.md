@@ -1,19 +1,32 @@
 <h1 align="center">CoAD</h1>
 <h2 align="center">🌉 Bridging Classification and Reconstruction: Cooperative Time Series Anomaly Detection</h2>
 
-## Overall Framework ##
+## Table of Contents ##
+- [🏄‍ Overall Framework](#overview)
+- [📄 Main Results](#main-results)
+- [📊 Case Studies](#case-studies)
+- [⚙️ Setup](#setup)
+- [🗄️ Prepare datasets](#prepare-datasets)
+- [🔁 Reproduce the main results](#reproduce-the-main-results)
+- [🔁 Reproduce the baseline results](#reproduce-the-baseline-results)
+- [🔁 Reproduce the ablation study results](#reproduce-the-ablation-study-results)
+- [🔁 Reproduce the parameter study results](#reproduce-the-parameter-study-results)
+- [📚 References](#references)
+
+
+<h2 id="overview">🏄‍ Overall Framework </h2>
 <p style="text-align: center;">
 <img src="fig/main_structure.png" alt="main_structure" width="1000">
 </p>
 
-## Main Results ##
+## 📄 Main Results ##
 Evaluation results on reliable datasets (KDD21 [1] and TSB-AD [2]) using rigorous evaluation protocols [2].
 
 <p style="text-align: center;">
 <img src="fig/main_results.png" alt="main_results" width="1000">
 </p>
 
-## Case Studies ##
+## 📊 Case Studies ##
 Visualizes the detection results of COAD on several challenging cases.
 
 <p style="text-align: center;">
@@ -21,7 +34,7 @@ Visualizes the detection results of COAD on several challenging cases.
 </p>
 
 
-## Setup ##
+## ⚙️ Setup ##
 Installation
 ```
 conda create -n CoAD python=3.11
@@ -29,7 +42,7 @@ conda activate CoAD
 pip install -r requirements.txt
 ```
 
-## Prepare datasets ##
+## 🗄️ Prepare datasets ##
 
 Download the dataset from the anonymous link [dataset](https://d.kuku.lu/pfj2vscrj) and extract it to the `dataset` folder.
 ```
@@ -46,30 +59,30 @@ Download the dataset from the anonymous link [dataset](https://d.kuku.lu/pfj2vsc
 │   ├───all_period.csv
 ```
 
-## Reproduce the main results ##
+##  🔁 Reproduce the main results ##
 ```shell
 sh runners/run_all_CoAD.sh
 ```
 
-## Reproduce the baseline results ##
+##  🔁 Reproduce the baseline results ##
 ```shell
 sh runners/run_deep_baseline.sh
 sh runners/run_dm_baseline.sh
 ```
 
-## Reproduce the ablation study results ##
+##  🔁 Reproduce the ablation study results ##
 The details of the ablation versions are shown in the **runners/run_ablation_CoAD.sh** file.
 ```shell
 sh runners/run_ablation_CoAD.sh
 ```
 
-## Reproduce the parameter study results ##
+##  🔁 Reproduce the parameter study results ##
 ```shell
 sh runners/parameter.sh
 ```
 
 
-## References ##
+##  📚 References ##
 1. E. Keogh, “Multidataset time series anomaly detection competition,” 2021, https://compete.hexagon-ml.com/practice/competition/39/.
 
 2. Q. Liu and J. Paparrizos, “The elephant in the room: Towards a reliable time-series anomaly detection
