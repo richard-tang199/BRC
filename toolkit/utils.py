@@ -85,6 +85,7 @@ def find_length_rank(data, rank=1):
         return local_max[max_local_max] + base
     except:
         return 125
+    
 def load_dataset(data_name: str, group_name: str = "1"):
     """
     Load dataset from the given data_name and group_name.
@@ -116,9 +117,9 @@ def load_dataset(data_name: str, group_name: str = "1"):
         subsequence_list = subsequence_list['period'].tolist()
         subsequence_list = [subsequence_list[i] for i in group_name]
         return train_data, test_data, test_label, subsequence_list
-    elif data_name == "TSB-AD-U":
+    elif data_name == "TSB-AD":
         group_name = [int(i) - 1 for i in group_name]
-        data_path = "dataset/TSB-AD-U/raw"
+        data_path = "dataset/TSB-AD/raw"
         data_files = os.listdir(data_path)
         data_files = sorted(data_files)
         data_list = [data_files[i] for i in group_name]
